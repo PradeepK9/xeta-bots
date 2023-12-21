@@ -1,0 +1,28 @@
+.XBCarousel {
+    margin-top: 70px;
+}
+
+.XBCarousel img {
+    height: 480px;
+}
+
+.XBCarousel h1{
+    background: rgb(240, 7, 7);
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.XBCarousel .carousel-caption{
+    bottom: 4rem;
+}
+
+@media (max-width: 700px) {
+    .XBCarousel img {
+        height: 240px;
+    }
+    .XBCarousel h1{
+        font-size: 14px;
+        border-radius: 5px;
+    }
+}

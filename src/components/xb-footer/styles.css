@@ -1,0 +1,11 @@
+.XBFooter {
+    height: 200px;
+    background: rgb(129, 239, 149);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .XBFooterHeading {
+    text-align: center;
+} */

@@ -1,0 +1,49 @@
+.ServicesContainer {
+    background: rgb(181, 226, 232);
+    padding: 2.5rem 1rem;
+}
+
+.Services {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.Services .Card {
+    flex: 0 0 300px;
+    margin: 5px 5px 20px;
+}
+
+.ServicessHeading {
+    text-align: center;
+}
+
+.Services::-webkit-scrollbar {
+    width: 14px;
+}
+
+.Services::-webkit-scrollbar-thumb {
+    width: 8px;
+    background: #642C8F;
+    border: 3px solid #F2F0FF;
+    border-radius: 8px;
+}
+
+.Services::-webkit-scrollbar-track {
+    border-radius: 4px;
+    border: 1px solid var(--color-purple-light, #F2F0FF);
+    background: var(--color-purple-light, #F2F0FF);
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.02);
+    background-clip: content-box;
+}
+
+.Services {
+    scrollbar-color: #642C8F #F2F0FF;
+    scrollbar-width: auto;
+}
+
+@media (max-width: 700px) {
+    .ServicessHeading {
+        font-size: 2.6rem;
+    }
+}
